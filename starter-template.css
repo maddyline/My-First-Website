@@ -11,7 +11,29 @@
 
 .navbar {
     text-align: center;
+    background-color: transparent;
+    border: none;
 }
+
+.navbar .nav > .active > a {
+	background-color: transparent;
+	color: black;
+}
+
+.navbar .nav > .active > a:hover {
+	background-color: transparent;
+	color: black;
+}
+
+.navbar .nav > li > a:hover {
+	color: pink;
+}
+
+.navbar .nav > li > a {
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
 .navbar  .nav {
     float: none;
     display:inline-block;
@@ -45,3 +67,14 @@
 	width: 100%;
 	height: 100%;
 }
+
+.pic {
+	padding: 20px;
+
+}
+
+
+
+
+
+
